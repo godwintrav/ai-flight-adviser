@@ -1,0 +1,18 @@
+[project]
+name = "ai-flight-adviser"
+version = "0.1.0"
+description = "AI Flight Assistant chat UI"
+requires-python = ">=3.11"
+dependencies = [
+    "openai",
+    "gradio",
+    "pandas",
+    "requests",
+    "python-dotenv",
+]
+
+[project.scripts]
+start = "main:main"
+
+[tool.uv]
+package = false
